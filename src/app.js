@@ -135,6 +135,9 @@ app.listen(8000, () => {
     console.log('Servidor escuchando en el puerto 8000 :D');
 });
 
+console.log(process.env);
+
+
 //Servidor
 //Configuramos la conexión 
 //Verificamos la conexión con db
